@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>App name-@yield('title')</ttlie>
+    <title>app name-@yield('title')</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -35,10 +35,9 @@
 </head>
 
 <body id="page-top">
-    
     @include('layouts.partials.navigation')
     @yield('content')
-    
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
